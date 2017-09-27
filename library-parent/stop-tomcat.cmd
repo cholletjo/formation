@@ -13,7 +13,10 @@ NET STOP Tomcat8
 echo "-----------------------"
 echo "tomcat is stoping      "
 
-timeout 5
+
 
 echo "tomcat stoped          "
 echo "-----------------------"
+
+set ERRORLEVEL=0
+echo Errorlevel: %ERRORLEVEL%
