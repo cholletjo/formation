@@ -8,12 +8,12 @@
   <artifactId>library-services-api</artifactId>
   <name>LibraryServiceApi</name>
   <description>La couche service de la bibliotheque</description>
+ 
   <dependencies>
   	<dependency>
   		<groupId>fr.uni.institute.library</groupId>
-  		<artifactId>library-dao-impl</artifactId>
-  		<version>1.0.0</version>
+  		<artifactId>library-dao-api</artifactId>
+  		<version>${library.version}</version>
   	</dependency>
   </dependencies>
- 
 </project>

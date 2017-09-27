@@ -45,7 +45,22 @@
 	<dependency>
 		<groupId>fr.uni.institute.library</groupId>
 		<artifactId>library-services-impl</artifactId>
-		<version>1.0.0</version>
+		<version>${library.version}</version>
 	</dependency>
+	
+	<dependency>
+	    <groupId>httpunit</groupId>
+	    <artifactId>httpunit</artifactId>
+	    <version>1.7</version>
+	    <scope>test</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/rhino/js -->
+	<dependency>
+	    <groupId>rhino</groupId>
+	    <artifactId>js</artifactId>
+	    <version>1.7R2</version>
+	     <scope>test</scope>
+	</dependency>
+	
   </dependencies>
 </project>

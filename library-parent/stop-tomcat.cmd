@@ -8,15 +8,11 @@ REM echo "Using tomcat %CATALINA_HOME%"
 
 REM %CATALINA_HOME%\bin\tomcat.exe stop
 
-NET STOP Tomcat8
-
 echo "-----------------------"
 echo "tomcat is stoping      "
 
-
+net stop Tomcat8
+timeout 2
 
 echo "tomcat stoped          "
 echo "-----------------------"
-
-set ERRORLEVEL=0
-echo Errorlevel: %ERRORLEVEL%
