@@ -13,7 +13,7 @@ NET START tomcat8
 echo "----------------------"
 echo "tomcat is starting    "
 
-timeout 2
+REM timeout 2
 
 echo "tomcat started       "
 echo "---------------------"
