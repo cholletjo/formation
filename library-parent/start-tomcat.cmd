@@ -17,3 +17,5 @@ REM timeout 2
 
 echo "tomcat started       "
 echo "---------------------"
+
+set ERRORLEVEL=0
