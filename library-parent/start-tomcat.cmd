@@ -19,3 +19,4 @@ echo "tomcat started       "
 echo "---------------------"
 
 set ERRORLEVEL=0
+echo Errorlevel: %ERRORLEVEL%
